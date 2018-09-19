@@ -1,0 +1,247 @@
+﻿[
+  {
+    "id": 1,
+    "name": "血瓶",
+    "type": "Consumable",
+    "quality": "Common",
+    "description": "这个是用来加血的",
+    "capacity": 10,
+    "buyPrice": 10,
+    "sellPrice": 5,
+    "hp": 10,
+    "mp": 0,
+    "sprite": "Sprites/Items/hp"
+  },
+  {
+    "id": 2,
+    "name": "蓝瓶",
+    "type": "Consumable",
+    "quality": "Common",
+    "description": "这个是用来加蓝的",
+    "capacity": 10,
+    "buyPrice": 10,
+    "sellPrice": 5,
+    "hp": 0,
+    "mp": 10,
+    "sprite": "Sprites/Items/mp"
+  },
+  {
+    "id": 3,
+    "name": "胸甲",
+    "type": "Equipment",
+    "quality": "Unmmon",
+    "description": "这个胸甲很牛B",
+    "capacity": 1,
+    "buyPrice": 30,
+    "sellPrice": 15,
+    "sprite": "Sprites/Items/armor",
+    "stength": 10,   //力量
+    "intellect": 5,  //智力
+    "agility": 9,    //敏捷
+    "stamina": 1,    //体力
+    "equipType": "Chest"   
+  },
+  {
+    "id": 4,
+    "name": "腰带",
+    "type": "Equipment",
+    "quality": "Unmmon",
+    "description": "这个腰带可以加速",
+    "capacity": 1,
+    "buyPrice": 40,
+    "sellPrice": 20,
+    "sprite": "Sprites/Items/belts",
+    "stength": 10,   //力量
+    "intellect": 7,  //智力
+    "agility": 20,    //敏捷
+    "stamina": 3,    //体力
+    "equipType": "Belt"   
+  },
+  {
+    "id": 5,
+    "name": "靴子",
+    "type": "Equipment",
+    "quality": "Rare",
+    "description": "这个靴子可以加速",
+    "capacity": 1,
+    "buyPrice": 30,
+    "sellPrice": 15,
+    "sprite": "Sprites/Items/boots",
+    "stength": 10,   //力量
+    "intellect": 17,  //智力
+    "agility": 30,    //敏捷
+    "stamina": 3,    //体力
+    "equipType": "Boots"   
+  },
+  {
+    "id": 6,
+    "name": "项链",
+    "type": "Equipment",
+    "quality": "Rare",
+    "description": "这个项链很厉害",
+    "capacity": 1,
+    "buyPrice": 50,
+    "sellPrice": 20,
+    "sprite": "Sprites/Items/necklace",
+    "stength": 10,   //力量
+    "intellect": 7,  //智力
+    "agility": 20,    //敏捷
+    "stamina": 3,    //体力
+    "equipType": "Neck"   
+  },
+  {
+    "id": 7,
+    "name": "戒指",
+    "type": "Equipment",
+    "quality": "Epic",
+    "description": "这戒指很厉害",
+    "capacity": 1,
+    "buyPrice": 40,
+    "sellPrice": 20,
+    "sprite": "Sprites/Items/rings",
+    "stength": 10,   //力量
+    "intellect": 7,  //智力
+    "agility": 20,    //敏捷
+    "stamina": 3,    //体力
+    "equipType": "Ring"   
+  },
+  {
+    "id": 8,
+    "name": "头盔",
+    "type": "Equipment",
+    "quality": "Epic",
+    "description": "这个头盔很厉害",
+    "capacity": 1,
+    "buyPrice": 40,
+    "sellPrice": 20,
+    "sprite": "Sprites/Items/helmets",
+    "stength": 10,   //力量
+    "intellect": 7,  //智力
+    "agility": 20,    //敏捷
+    "stamina": 3,    //体力
+    "equipType": "Head"   
+  },
+  {
+    "id": 9,
+    "name": "裤子",
+    "type": "Equipment",
+    "quality": "Epic",
+    "description": "这个裤子很厉害",
+    "capacity": 1,
+    "buyPrice": 40,
+    "sellPrice": 20,
+    "sprite": "Sprites/Items/pants",
+    "stength": 10,   //力量
+    "intellect": 7,  //智力
+    "agility": 20,    //敏捷
+    "stamina": 3,    //体力
+    "equipType": "Leg"   
+  },
+  {
+    "id": 10,
+    "name": "护腕",
+    "type": "Equipment",
+    "quality": "Legendary",
+    "description": "这个护腕很厉害",
+    "capacity": 1,
+    "buyPrice": 40,
+    "sellPrice": 20,
+    "sprite": "Sprites/Items/bracers",
+    "stength": 10,   //力量
+    "intellect": 7,  //智力
+    "agility": 20,    //敏捷
+    "stamina": 3,    //体力
+    "equipType": "Bracer"   
+  },
+  {
+    "id": 11,
+    "name": "护肩",
+    "type": "Equipment",
+    "quality": "Legendary",
+    "description": "这个护肩很厉害",
+    "capacity": 1,
+    "buyPrice": 40,
+    "sellPrice": 20,
+    "sprite": "Sprites/Items/shoulders",
+    "stength": 10,   //力量
+    "intellect": 7,  //智力
+    "agility": 20,    //敏捷
+    "stamina": 3,    //体力
+    "equipType": "Shoulder"   
+  },
+  {
+    "id": 12,
+    "name": "副手",
+    "type": "Equipment",
+    "quality": "Artifact",
+    "description": "这个副手很厉害",
+    "capacity": 1,
+    "buyPrice": 40,
+    "sellPrice": 20,
+    "sprite": "Sprites/Items/gloves",
+    "stength": 10,   //力量
+    "intellect": 7,  //智力
+    "agility": 20,    //敏捷
+    "stamina": 3,    //体力
+    "equipType": "OffHand"   
+  },
+  {
+    "id": 13,
+    "name": "斧子",
+    "type": "Weapon",
+    "quality": "Artifact",
+    "description": "这个斧子很厉害",
+    "capacity": 1,
+    "buyPrice": 40,
+    "sellPrice": 20,
+    "sprite": "Sprites/Items/axe",
+    "damage": 30,
+    "weapon": "MainHand" 
+  },
+  {
+    "id": 14,
+    "name": "倚天剑",
+    "type": "Weapon",
+    "quality": "Artifact",
+    "description": "这个很厉害",
+    "capacity": 1,
+    "buyPrice": 40,
+    "sellPrice": 20,
+    "sprite": "Sprites/Items/sword",
+    "damage": 20,
+    "weapon": "OffHand" 
+  },
+  {
+    "id": 15,
+    "name": "斧子的锻造秘笈",
+    "type": "Material",
+    "quality": "Legendary",
+    "description": "用来锻造斧子",
+    "capacity": 3,
+    "buyPrice": 40,
+    "sellPrice": 20,
+    "sprite": "Sprites/Items/book"
+  },
+  {
+    "id": 16,
+    "name": "头盔的锻造秘笈",
+    "type": "Material",
+    "quality": "Legendary",
+    "description": "用来锻造头盔",
+    "capacity": 3,
+    "buyPrice": 40,
+    "sellPrice": 20,
+    "sprite": "Sprites/Items/scroll"
+  },
+  {
+    "id": 17 ,
+    "name": "铁块",
+    "type": "Material",
+    "quality": "Epic",
+    "description": "用来锻造其他东西的必备材料",
+    "capacity": 3,
+    "buyPrice": 40,
+    "sellPrice": 20,
+    "sprite": "Sprites/Items/ingots"
+  }
+]
